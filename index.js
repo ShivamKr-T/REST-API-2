@@ -1,7 +1,6 @@
 const express=require("express");
 const fs=require('fs');
 const mongoose=require('mongoose');
-const { connect } = require("http2");
 
 const app=express();
 const PORT=8000;
